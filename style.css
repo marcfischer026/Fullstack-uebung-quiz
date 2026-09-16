@@ -1,0 +1,29 @@
+.topbar{
+    background-color: #570690;
+    padding: 20px;
+    align-items: center;
+    float: top;
+    color:#E7BFFF
+}
+body{
+    background-color: #E7BFFF;
+    font-family: graphik, sans-serif;
+    color: #570690
+
+}
+.footer
+{
+    background-color: #570690;
+    color: #220039;
+    outline-color: #220039;
+    padding: 15px
+}
+.worldmap{
+    float: middle;
+
+}
+.mainbody{
+    padding: 20px;
+
+
+}
