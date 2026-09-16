@@ -16,6 +16,7 @@ deine Aufgabe ist, eine Quiz-webseite mit einem Thema deiner Wahl zu erstellen, 
 - tabellen
 - hübschmachen mit css
 
+
 hint: das `<summary>` element kann benutzt werden, um Text einzuklappen:
 
 ```html
