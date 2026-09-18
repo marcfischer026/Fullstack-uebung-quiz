@@ -80,7 +80,44 @@ switch (switZahl){
     break
     case 3:dificulty = "hard" 
     break
-
+    default : dificulty = "not 1-3"
+    break
 }
 canBreaktenary = (dificulty =="hard") ? "zombie can break the door" : "zombie cant break the door";
 console.log(canBreaktenary)
+
+
+for (let i = 0; i < 5; i++){
+    console.log(i)
+}
+let zahl2 = 2;
+while (zahl2<10){
+    zahl2 =zahl2 * 2;
+    console.log(zahl2)
+}
+
+let visitors = [1,2,3,4,5]
+
+for (let i = 0; i<11;i++){
+    console.log(i)
+}
+
+function powercalculation (a,b){
+    let result = a;
+    while (b>1) {
+        result = result * a
+        b--
+    }
+    return result
+}
+console.log(powercalculation(2,7))
+let a = 2; //base
+let b = 9; //power
+let atothepowerofb;
+atothepowerofb = a;
+while (b>1) {
+    atothepowerofb = atothepowerofb * a;
+    b--;
+
+}
+console.log(atothepowerofb)
